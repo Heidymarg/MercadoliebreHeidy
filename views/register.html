@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Crear perfil" method="POST">
+        <div class="barrasRegister">
+    <input placeholder="Nombre y Apellido" type="text" name="nombre">
+    <input placeholder="Nombre de usuario" type="text" name="usuario">
+    <input placeholder="Ingrese su Email" type="email" name="email">
+    <input placeholder="Fecha de Nacimiento" type="date" name="fecha">
+    <input placeholder="Domicilio" type="text" name="domicilio">
+    <h4><label for="perfil">Perfil del Usuario</label></h4>
+    <div>
+    <input type="radio" name="perfil del usuario" value="Comprador">Comprador
+    </div>
+    <div>
+    <input type="radio" name="perfil del usuario" value="Vendedor">Vendedor
+    </div>
+    <h4><label for="categorias">Categorías de interés</label></h4>
+    <div class="listaRegister">
+    <input type="checkbox" name="categorias" value="Electro">Electro
+    </div>
+    <div>
+    <input type="checkbox" name="categorias" value="Moda">Moda
+    </div>
+    <div>
+    <input type="checkbox" name="categorias" value="Hogar">Hogar
+    </div>
+    <div>
+    <input type="checkbox" name="categorias" value="Juguetería">Juguetería
+    </div>
+    <div>
+    <input type="checkbox" name="categorias" value="Vida Sana">Vida Sana
+    </div>
+    <h4><label>Seleccione una foto de perfil:</label></h4>
+    <input type="file" name="avatar" accept=".jpg">
+    <input placeholder="Ingrese una contraseña" name="contraseña" type="password">
+    <input placeholder="Confirme su contraseña" name="contraseña" type="password">
+ </div>
+    <button class="botonEnviar" type="submit"><a href="/">Enviar</a></button>
+    <button class="botonBorrar" type="reset">BORRAR DATOS</button>
+</form>  
+</body>
+</html>
