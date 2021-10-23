@@ -17,7 +17,7 @@ app.get('/login',(req,res) => {
     res.sendFile(path.resolve(__dirname,'./views/login.html'))
 });
 
-app.listen(process.env.PORT || 4000, ()=>{
+app.listen(process.env.PORT || 4040, ()=>{
     console.log('Servidor corriendo en el puerto 4000')
 });
 
